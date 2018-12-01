@@ -6,4 +6,5 @@ Collection of personal cheatsheets.
 ## Keyboard shortcuts
 
 [Terminal and Shell](./cmd-shortcuts.md)
+<br/>
 [Vim commands](./vim.md)

@@ -10,3 +10,6 @@ Collection of personal cheatsheets.
 [Vim commands](./vim.md)
 <br/>
 [Chrome](./chrome.md)
+<br/>
+[Linux Mint Cinamon](./linux-mint-cinamon.md)
+<br/>

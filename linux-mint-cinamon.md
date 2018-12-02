@@ -69,7 +69,7 @@
 | `SUPER + RIGHT`               | Push tile right                                               |
 | `SUPER + UP`                  | Push tile up                                                  |
 | `SUPER + DOWN`                | Push tile down                                                |
-|
+|                               |                                                               |
 | `CTRL + SUPER + LEFT`         | Push snap left                                                |
 | `CTRL + SUPER + RIGHT`        | Push snap right                                               |
 | `CTRL + SUPER + UP`           | Push snap up                                                  |

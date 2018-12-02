@@ -13,3 +13,5 @@ Collection of personal cheatsheets.
 <br/>
 [Linux Mint Cinamon](./linux-mint-cinamon.md)
 <br/>
+[IntelliJ Idea](./intellij-idea.md)
+<br/>

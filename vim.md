@@ -6,11 +6,12 @@
 | Command                                   | Meaning                                                           |
 | :-------------------------------:         | :---------------------------------------------------------------: |
 |                                           |                                                                   |
-| `ESC`                                     | Return to normal mode                                             |
+| `ESC` or `Caps Lock`                      | Return to **normal** / **command** mode                           |
 | `i`                                       | Enter into **insert** mode                                        |
 | `v`                                       | Enter into visual mode                                            |
 | `SHIFT + v`                               | Enter into visual line mode                                       |
 | `SHIFT + :`                               | Enter into command mode                                           |
+| `:`                                       | Enter into comman line mode                                       |
 
 ### Moving around
 
@@ -22,6 +23,9 @@
 | `j`                                       | Move cursor down                                                  |
 | `k`                                       | Move cursor up                                                    |
 |                                           |                                                                   |
+| `CTRL + F`                                | Move page down                                                    |
+| `CTRL + B`                                | Move page up                                                      |
+|                                           |                                                                   |
 | `H`                                       | Move to the top of a  screen                                      |
 | `M`                                       | Move to the middle of a  screen                                   |
 | `L`                                       | Move to the bottom of a screen                                    |
@@ -30,6 +34,10 @@
 | `$`                                       | Jump to the end of a line                                         |                
 | `^`                                       | Jump to the first non-blank character of a line                   |
 | `g _`                                     | Jump to the last non-blank character of a line                    |
+|                                           |                                                                   |
+| `g g`                                     | Jump to the first line                                            |
+| `G`                                       | Jump to the last line                                             |
+| `g g 10` or `G 10`                        | Jump to the *10th* line                                           |
 |                                           |                                                                   |
 | `w`                                       | Jump forwards to start of a word                                  |
 | `W`                                       | Jump forwards to start of a word with punctuation                 |
@@ -57,12 +65,14 @@
 | :---------------------------------------: | :---------------------------------------------------------------: |
 |                                           |                                                                   |   
 | `i`                                       | Insert before cursor                                              |
-| `I`                                       | Insert at the beginning of a line                                 |
+| `I`                                       | Insert at the beginning (first non blank character) of a line     |
 | `a`                                       | Append after cursor                                               |
 | `A`                                       | Append at the end of a line                                       |
 |                                           |                                                                   |
 | `r`                                       | Replace character at cursor                                       |
+| `R`                                       | Start replacing (as writing new text over existing one)           |
 | `x`                                       | Delete character at cursor                                        |
+| `X`                                       | Delete character before cursor                                    |
 | `s`                                       | Substitute character at cursor                                    |
 |                                           |                                                                   |   
 | `O`                                       | Open newline above the current line                               |
@@ -74,21 +84,45 @@
 | `c w`                                     | Change to the end of a word                                       |
 | `c b`                                     | Change to the begining of a word                                  |
 |                                           |                                                                   |
+| `d w`                                     | Delete to the end of a word                                       |
+| `d b`                                     | Delete to the begining of a word                                  |
+|                                           |                                                                   |
 | `d i ( [ { ' " <` or `d i ) ] } ' " >`    | Delete between () , [] , {} , '' , "" , <>                        |
 | `c i ( [ { ' " <` or `c i ) ] } ' " >`    | Change between () , [] , {} , '' , "" , <>                        |
 |                                           |                                                                   |
 | `~`                                       | Switch case                                                       | 
+| `g ~ w`                                   | Switch case for entire word                                       |
+| `g ~ ~`                                   | Switch case for entire line                                       |
+|                                           |                                                                   |
+| `g U w`                                   | Turn all characters in word uppercase                             |
+| `g U U`                                   | Turn all characters in line uppercase                             |
+| `g u w`                                   | Turn all characters in word lowercase                             |
+| `g u u`                                   | Turn all characters in line lowercase                             |
 |                                           |                                                                   |
 | `c c` or `S`                              | Change entire line                                                |
-| `c $`                                     | Change to the end of a line                                       |
-| `c 0`                                     | Change to the beginging of a line                                 |
+| `c $` or `C`                              | Change to the end of a line                                       |
+| `c 0`                                     | Change to the beginnging of a line                                |
+|                                           |                                                                   |
+| `d d`                                     | Delete / cut entire line                                          |
+| `d $` or `D`                              | Delete / cut to the end of a line                                 |
+| `d 0`                                     | Delete / cut to the beginning of a line                           |
+|                                           |                                                                   |
+| `y y`                                     | Copy / yank entire line                                           |
+| `y $`                                     | Copy / yank to the end of a line                                  |
+| `y 0`                                     | Copy / yank to the beginning of a line                            |
+|                                           |                                                                   |
+| `J`                                       | Join two lines (with spaces)                                      |
+| `g J`                                     | Join two lines (without spaces)                                   |
 
 ### Searching
 
 | Command                                   | Meaning                                                           |
 | :---------------------------------------: | :---------------------------------------------------------------: |
 |                                           |                                                                   |
-| `/`                                       | Opend the search prompt                                           |
+| `/{pattern}`                              | Search *pattern* forwards                                         |
+| `?{pattern}`                              | Search *pattern* backwards                                        |
+| `*`                                       | Forward search for word (under cursor)                            |
+| `#`                                       | Backward search for word (under cursor)                           |
 | `n`                                       | Next search match                                                 |
 | `N`                                       | Previous search match                                             |
 
@@ -102,10 +136,46 @@
 | `@`                                       | Run macro *a*                                                     |
 | `@@`                                      | Re-run the last run macro                                         |
 
-### Undo & Redo
+### Undo & Redo & Repeating
 
 | Command                                   | Meaning                                                           |
 | :---------------------------------------: | :---------------------------------------------------------------: |
 |                                           |                                                                   |
 | `u`                                       | Undo                                                              |
 | `CTRL + u`                                | Redo                                                              |
+| `.`                                       | Repeat the previous command (like 'delete a word')                |
+
+### Copy & Cut & Paste / Yank & Delete & Put
+
+| Command                                   | Meaning                                                           |
+| :---------------------------------------: | :---------------------------------------------------------------: |
+|                                           |                                                                   |
+| `p`                                       | Put text after / below cursor                                     |
+| `P`                                       | Put text before / above cursor                                    |
+|                                           |                                                                   |
+| `" j y y`                                 | Copy line into register *j*                                       |
+| `" 4 y y`                                 | Copy line into register *4*                                       |
+|                                           |                                                                   |
+| `" j p`                                   | Put content of register *j* after cursor                          |
+| `" 4 p`                                   | Put content of register *4* after cursor                          |
+
+### Command line mode
+
+| Command                                   | Meaning                                                           |
+| :---------------------------------------: | :---------------------------------------------------------------: |
+|                                           |                                                                   |
+| `: q`                                     | Quit vim                                                          |
+| `: q!`                                    | Quit vim without saving changes                                   |
+|                                           |                                                                   |
+| `: w`                                     | Save changes                                                      |
+| `: wq`                                    | Save changes and quit                                             |
+|                                           |                                                                   |
+| `: 44<Enter>`                             | Jump to the line *44*                                             |
+| `: $<Enter>`                              | Jump to the last line                                             |
+| `: 0<Enter>`                              | Jump to the first line                                            |
+|                                           |                                                                   |
+| `: help [text]`                           | Open help                                                         |
+| `: reg [register(s)]`                     | Show content of registers                                         |
+|                                           |                                                                   |
+| `: [range]s/old/new/[flags]`              | Substitue *old* text with *new* text                              |
+| `: %s/old/new/g`                          | Substitue *old* text with *new* text in entire file               |

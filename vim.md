@@ -58,6 +58,10 @@
 | `,`                                               | Repeat previous `f`, `t`, `F`, `T` movement backwards                 |
 |                                                   |                                                                       |
 | `%`                                               | Jump to mathing opening or closing ( [ {                              |
+|                                                   |                                                                       |
+| `z t`                                             | Put current line to the top of screen                                 |
+| `z z`                                             | Put current line to the middle of screen                              |
+| `z b`                                             | Put current line to the bottom of screen                              |
 
 ## Editing
 

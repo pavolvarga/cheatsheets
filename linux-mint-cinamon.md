@@ -10,7 +10,7 @@
 | `SUPER + I`                   | Open IntelliJ Idea                                            |
 | `SUPER + F`                   | Open firefox                                                  |
 | `SUPER + H`                   | Open chrome                                                   |
-| `SUPER + P`                   | Open pidgin                                                   |
+| `SUPER + B`                   | Open brave                                                    |
 | `SUPER + W`                   | Open file commander                                           |
 | `SUPER + X`                   | Open Xed editor                                               |
 

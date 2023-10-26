@@ -15,3 +15,5 @@ Collection of personal cheatsheets.
 <br/>
 [IntelliJ Idea](./intellij-idea.md)
 <br/>
+[Visual Studio Code](./vs-code.md)
+<br/>

@@ -19,6 +19,7 @@
 | `CTRL + SHIFT + E`                            | Open Explorer Panel               |
 | `CTRL + SHIFT + F`                            | Open Search Panel                 |
 | `CTRL + SHIFT + X`                            | Open Extensions Panel             |
+| `CTRL + SHIFT + X`                            | Open Source Control Panel         |
 
 ## Files
 
@@ -45,6 +46,8 @@
 | `ALT + UP`                                    | Move Line Up                      |
 | `ALT + DOWN`                                  | Move Line Down                    |
 | `CTRL + D`                                    | Select Word                       |
+| `CTRL + SHIFT + [`                            | Fold                              |
+| `CTRL + SHIFT + ]`                            | Unfold                            |
 
 ## Split Views
 

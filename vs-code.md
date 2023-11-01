@@ -41,13 +41,18 @@
 | `CTRL + G`                                    | Go To Line                        |
 | `CTRL + U`                                    | Go Back                           |
 | `CTRL + /`                                    | Toggle Line Comment               |
+| `CTRL + I`                                    | Auto Import                       |
+| `CTRL + D`                                    | Select Word                       |
 | `CTRL + SHIFT + A`                            | Toggle Block Comment              |
 | `CTRL + SHIFT + V`                            | Open Markdown Preview             |
 | `ALT + UP`                                    | Move Line Up                      |
 | `ALT + DOWN`                                  | Move Line Down                    |
-| `CTRL + D`                                    | Select Word                       |
 | `CTRL + SHIFT + [`                            | Fold                              |
 | `CTRL + SHIFT + ]`                            | Unfold                            |
+| `CTRL + K, CTRL + 0`                          | Fold All                          |
+| `CTRL + K, CTRL + J`                          | Unfold All                        |
+| `ALT + SHIFT + RIGHT`                         | Expand Selection                  |
+| `ALT + SHIFT + LEFT`                          | Shrink Selection                  |
 
 ## Split Views
 

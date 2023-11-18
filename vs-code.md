@@ -25,10 +25,10 @@
 
 | Shortcut                                      | Meaning                           |
 | :-------------------------------------------: | :-------------------------------: |
-| `CTRL + W`                                    | Close file                        |    
-| `CTRL + P`                                    | Quick Open                        |    
-| `CTRL + K, CTRL + W`                          | Close All                         |    
-| `CTRL + SHIFT + T`                            | Reopen Closed                     |    
+| `CTRL + W`                                    | Close file                        |
+| `CTRL + P`                                    | Quick Open                        |
+| `CTRL + K, CTRL + W`                          | Close All                         |
+| `CTRL + SHIFT + T`                            | Reopen Closed                     |
 
 ## File Editing
 
@@ -53,15 +53,16 @@
 | `CTRL + K, CTRL + J`                          | Unfold All                        |
 | `ALT + SHIFT + RIGHT`                         | Expand Selection                  |
 | `ALT + SHIFT + LEFT`                          | Shrink Selection                  |
+| `CTRL + SHIFT + R`                            | Refactor                          |
 
 ## Split Views
 
 | Shortcut                                      | Meaning                           |
 | :-------------------------------------------: | :-------------------------------: |
-| `CTRL + ALT + RIGHT`                          | Move File To Right Split View     | 
-| `CTRL + ALT + LEFT`                           | Move File To Left Split View      | 
-| `CTRL + K, CTRL + RIGHT`                      | Jump To Right Split View          | 
-| `CTRL + K, CTRL + LEFT`                       | Jump To Left Split View           | 
-| `CTRL + 0`                                    | Jump To Side Bar                  | 
-| `CTRL + 1`                                    | Jump To View 1                    | 
-| `CTRL + 2`                                    | Jump To View 2                    | 
+| `CTRL + ALT + RIGHT`                          | Move File To Right Split View     |
+| `CTRL + ALT + LEFT`                           | Move File To Left Split View      |
+| `CTRL + K, CTRL + RIGHT`                      | Jump To Right Split View          |
+| `CTRL + K, CTRL + LEFT`                       | Jump To Left Split View           |
+| `CTRL + 0`                                    | Jump To Side Bar                  |
+| `CTRL + 1`                                    | Jump To View 1                    |
+| `CTRL + 2`                                    | Jump To View 2                    |

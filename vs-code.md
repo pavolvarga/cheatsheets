@@ -73,3 +73,5 @@
 | :-------------------------------------------: | :--------------------------------------------:|
 | `ALT + ]`                                     | Navigate to the next panel suggestion         |
 | `ALT + ]`                                     | Navigate to the previous panel suggestion     |
+| `CTRL + SHIFT + Q`                            | Open Github Copilot Chat                      |
+| `SHIFT + Q`                                   | Open Github Copilot Quick Chat                |

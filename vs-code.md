@@ -38,22 +38,30 @@
 | `CTRL + SHIFT + K`                            | Delete line                                   |
 | `CTRL + SHIFT + ALT + J`                      | Copy Line Down                                |
 | `CTRL + SHIFT + ALT + K`                      | Copy Line Up                                  |
-| `CTRL + G`                                    | Go To Line                                    |
-| `CTRL + U`                                    | Go Back                                       |
-| `CTRL + /`                                    | Toggle Line Comment                           |
-| `CTRL + I`                                    | Auto Import                                   |
-| `CTRL + D`                                    | Select Word                                   |
-| `CTRL + SHIFT + A`                            | Toggle Block Comment                          |
-| `CTRL + SHIFT + V`                            | Open Markdown Preview                         |
 | `ALT + UP`                                    | Move Line Up                                  |
 | `ALT + DOWN`                                  | Move Line Down                                |
+| `CTRL + G`                                    | Go To Line                                    |
+| `CTRL + U`                                    | Go Back                                       |
+| `CTRL + I`                                    | Auto Import                                   |
+| `CTRL + /`                                    | Toggle Line Comment                           |
+| `CTRL + SHIFT + A`                            | Toggle Block Comment                          |
+| `CTRL + SHIFT + V`                            | Open Markdown Preview                         |
 | `CTRL + SHIFT + [`                            | Fold                                          |
 | `CTRL + SHIFT + ]`                            | Unfold                                        |
 | `CTRL + K, CTRL + 0`                          | Fold All                                      |
 | `CTRL + K, CTRL + J`                          | Unfold All                                    |
+| `CTRL + SHIFT + R`                            | Refactor                                      |
+
+# Test Selection
+
+| Shortcut                                      | Meaning                                       |
+| :-------------------------------------------: | :--------------------------------------------:|
+|                                               |                                               |
 | `ALT + SHIFT + RIGHT`                         | Expand Selection                              |
 | `ALT + SHIFT + LEFT`                          | Shrink Selection                              |
-| `CTRL + SHIFT + R`                            | Refactor                                      |
+| `CTRL + D`                                    | Add Selection To Next Find Math               |
+| `CTRL + K, CTRL + D`                          | Move Last Selection To Next Find Match (skip) |
+| `CTRL + U`                                    | Undlo Last Selection                          |
 
 ## Split Views
 

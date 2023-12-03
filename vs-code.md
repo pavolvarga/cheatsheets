@@ -52,7 +52,7 @@
 | `CTRL + K, CTRL + J`                          | Unfold All                                    |
 | `CTRL + SHIFT + R`                            | Refactor                                      |
 
-# Test Selection
+# Text Selection
 
 | Shortcut                                      | Meaning                                       |
 | :-------------------------------------------: | :--------------------------------------------:|

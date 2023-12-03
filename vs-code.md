@@ -8,7 +8,6 @@
 | `CTRL + SHIFT + P`                            | Open Command Line Palet                       |
 | `CTRL + K, CTRL + S`                          | Open Keyboard Shortcuts List                  |
 | `CTRL + ,`                                    | Open Settings                                 |
-| ``CTRL + ` ``                                 | Open Terminal                                 |
 
 ## Panels
 
@@ -29,6 +28,15 @@
 | `CTRL + P`                                    | Quick Open                                    |
 | `CTRL + K, CTRL + W`                          | Close All                                     |
 | `CTRL + SHIFT + T`                            | Reopen Closed                                 |
+
+## Terminal
+
+| Shortcut                                      | Meaning                                       |
+| :-------------------------------------------: | :--------------------------------------------:|
+| ``CTRL + ` ``                                 | Open Terminal                                 |
+| ``CTRL + SHIFT + ` ``                         | Create New Terminal                           |
+| ``CTRL + PgUp``                               | Switch To Previous Terminal                   |
+| ``CTRL + PgDown``                             | Switch To Previous Terminal                   |
 
 ## File Editing
 

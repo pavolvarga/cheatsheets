@@ -54,11 +54,22 @@
 | `CTRL + /`                                    | Toggle Line Comment                           |
 | `CTRL + SHIFT + A`                            | Toggle Block Comment                          |
 | `CTRL + SHIFT + V`                            | Open Markdown Preview                         |
+| `CTRL + SHIFT + R`                            | Open Refactor Menu                            |
+
+
+## Folding / Unfolding
+
+| Shortcut                                      | Meaning                                       |
+| :-------------------------------------------: | :--------------------------------------------:|
+|                                               |                                               |
 | `CTRL + SHIFT + [`                            | Fold                                          |
 | `CTRL + SHIFT + ]`                            | Unfold                                        |
+| `CTRL + K, CTRL + L`                          | Fold / Unfold (toogle)                        |
+| `CTRL + K, CTRL + [`                          | Fold Recursively                              |
+| `CTRL + K, CTRL + ]`                          | Unfold Recursively                            |
 | `CTRL + K, CTRL + 0`                          | Fold All                                      |
 | `CTRL + K, CTRL + J`                          | Unfold All                                    |
-| `CTRL + SHIFT + R`                            | Refactor                                      |
+| `CTRL + K, CTRL + /`                          | Fold All Block Comments                       |
 
 # Text Selection
 

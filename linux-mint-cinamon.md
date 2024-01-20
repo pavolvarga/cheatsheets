@@ -13,6 +13,7 @@
 | `SUPER + B`                   | Open brave                                                    |
 | `SUPER + W`                   | Open file commander                                           |
 | `SUPER + X`                   | Open Xed editor                                               |
+| `SUPER + C`                   | Open VisualStudio Code                                        |
 
 ## Moving between Workspaces
 
@@ -57,7 +58,7 @@
 | `SUPER + ALT + F7`            | Move window                                                   |
 | `SUPER + ALT + F8`            | Resize window                                                 |
 |                               |                                                               |
-| `SUPER + ALT + CTRL + LEFT`   | Move window to left monitor                                   | 
+| `SUPER + ALT + CTRL + LEFT`   | Move window to left monitor                                   |
 | `SUPER + ALT + CTRL + RIGTH`  | Move window to right monitor                                  |
 
 ## Tiling and Snapping
@@ -75,7 +76,7 @@
 | `CTRL + SUPER + UP`           | Push snap up                                                  |
 | `CTRL + SUPER + DOWN`         | Push snap down                                                |
 
-## Miscellaneous 
+## Miscellaneous
 
 | Shortcut                      | Meaning                                                       |
 | :---------------------------: | :-----------------------------------------------------------: |

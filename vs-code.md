@@ -50,6 +50,8 @@
 | `CTRL + SHIFT + ALT + K`                      | Copy Line Up                                  |
 | `ALT + UP`                                    | Move Line Up                                  |
 | `ALT + DOWN`                                  | Move Line Down                                |
+| `CTRL + TAB + LEFT`                           | Jump To Line Beginning                        |
+| `CTRL + TAB + RIGHT`                          | Jump To Line End                              |
 | `CTRL + G`                                    | Go To Line                                    |
 | `CTRL + U`                                    | Go Back                                       |
 | `CTRL + I`                                    | Auto Import                                   |
@@ -105,3 +107,9 @@
 | `ALT + ]`                                     | Navigate to the previous panel suggestion     |
 | `CTRL + SHIFT + Q`                            | Open Github Copilot Chat                      |
 | `SHIFT + Q`                                   | Open Github Copilot Quick Chat                |
+
+## Plugins
+
+| Shortcut                                      | Meaning                                       |
+| :-------------------------------------------: | :--------------------------------------------:|
+| `CTRL + F1`                                   | Prettier Auto Fix                             |

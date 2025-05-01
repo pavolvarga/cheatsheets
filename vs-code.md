@@ -28,6 +28,8 @@
 | `CTRL + P`                                    | Quick Open                                    |
 | `CTRL + K, CTRL + W`                          | Close All                                     |
 | `CTRL + SHIFT + T`                            | Reopen Closed                                 |
+| `ALT + LEFT`                                  | Go To Previous Opened File                    |
+| `ALT + RIGHT`                                 | Go to Next Opened File                        |
 
 ## Terminal
 
@@ -55,7 +57,8 @@
 | `CTRL + SHIFT + A`                            | Toggle Block Comment                          |
 | `CTRL + SHIFT + V`                            | Open Markdown Preview                         |
 | `CTRL + SHIFT + R`                            | Open Refactor Menu                            |
-
+| `CTRL + ALT + [`                              | Jump To Top Of File                           |
+| `CTRL + ALT + ]`                              | Jump To Bottom Of File                        |
 
 ## Folding / Unfolding
 
